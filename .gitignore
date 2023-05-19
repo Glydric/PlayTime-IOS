@@ -1,0 +1,8 @@
+# system
+.DS_Store
+
+# Project
+Pods
+
+# Google Keys
+GoogleService-Info.plist

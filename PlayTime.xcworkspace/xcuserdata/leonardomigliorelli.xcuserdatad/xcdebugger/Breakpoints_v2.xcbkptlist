@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "458B329D-0EAD-4B49-9CE0-BBF86957E9BF"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8DE27379-392D-455A-884D-C22814FADA56"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/CustomClasses/DividerTextField.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "DividerTextField"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "8DE27379-392D-455A-884D-C22814FADA56 - ccdf2be658081070"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of PlayTime.DividerTextField.color : Swift.Optional&lt;SwiftUI.Color&gt;"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/CustomClasses/DividerTextField.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "8DE27379-392D-455A-884D-C22814FADA56 - 695879ea85a10b42"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayTime.DividerTextField.color.getter : Swift.Optional&lt;SwiftUI.Color&gt;"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/CustomClasses/DividerTextField.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "8DE27379-392D-455A-884D-C22814FADA56 - d576d6e8a3484836"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayTime.DividerTextField.color.setter : Swift.Optional&lt;SwiftUI.Color&gt;"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/CustomClasses/DividerTextField.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "8DE27379-392D-455A-884D-C22814FADA56 - e4be6f5967746b07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayTime.DividerTextField.color.modify : Swift.Optional&lt;SwiftUI.Color&gt;"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/CustomClasses/DividerTextField.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "8DE27379-392D-455A-884D-C22814FADA56 - 49ae202a709fb526"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayTime.DividerTextField.color.modify : Swift.Optional&lt;SwiftUI.Color&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/CustomClasses/DividerTextField.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "8DE27379-392D-455A-884D-C22814FADA56 - e9db390ec71a8afe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayTime.DividerTextField.$color.getter : SwiftUI.Binding&lt;Swift.Optional&lt;SwiftUI.Color&gt;&gt;"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/CustomClasses/DividerTextField.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC8ECA3F-36FD-4737-A56B-1F1F5C595225"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/CustomClasses/DividerTextField.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "BC8ECA3F-36FD-4737-A56B-1F1F5C595225 - 47461b51bcb225c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.TextField&lt;SwiftUI.Text&gt;, &lt;&lt;opaque return type of SwiftUI.View.background&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(_: &#x3c4;_1_0, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt; in PlayTime.DividerTextField.body.getter : some"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/CustomClasses/DividerTextField.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "804">
+               </Location>
+               <Location
+                  uuid = "BC8ECA3F-36FD-4737-A56B-1F1F5C595225 - 47461b51bcb225c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.TextField&lt;SwiftUI.Text&gt;, &lt;&lt;opaque return type of SwiftUI.View.background&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(_: &#x3c4;_1_0, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0)&gt; in PlayTime.DividerTextField.body.getter : some"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/CustomClasses/DividerTextField.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "820">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7DE58EA4-84A1-4CDD-979B-EF6889FE2472"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/App/Login/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "7DE58EA4-84A1-4CDD-979B-EF6889FE2472 - 79cda477e40671db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.GridRow&lt;PlayTime.DividerTextField&gt;, SwiftUI.GridRow&lt;PlayTime.DividerTextField&gt;)&gt; in PlayTime.LoginView.body.getter : some"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/App/Login/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "7DE58EA4-84A1-4CDD-979B-EF6889FE2472 - 556a5604863d4a73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; PlayTime.DividerTextField in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.GridRow&lt;PlayTime.DividerTextField&gt;, SwiftUI.GridRow&lt;PlayTime.DividerTextField&gt;)&gt; in PlayTime.LoginView.body.getter : some"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/App/Login/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
