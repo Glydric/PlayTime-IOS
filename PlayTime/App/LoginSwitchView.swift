@@ -19,6 +19,7 @@ struct LoginSwitchView: View {
 	@State var isPasswordValid = true
 	
 	@State var isLoginError: Bool = false
+	@State var isLoading: Bool = false
 	@State var error: FirebaseErrorCodes? {
 		didSet {
 			isLoginError = error != nil
@@ -62,13 +63,21 @@ struct LoginSwitchView: View {
 			}
 			Spacer()
 			
-			Button(actualButton.0, action: actualButton.1)
-				.frame(maxWidth: .infinity)
+			
+			if isLoading{
+				ProgressView()
+					.progressViewStyle(.circular)
+			}
+			Text(actualButton.0)
+				.frame(maxWidth: .infinity, minHeight: 26)
 				.padding(.vertical, 12)
 				.foregroundColor(.white)
 				.background(.green)
 				.font(.headline)
 				.cornerRadius(10)
+				.onTapGesture {
+					actualButton.1()
+				}
 		}
 		.frame(
 			minWidth: 0,
@@ -82,23 +91,21 @@ struct LoginSwitchView: View {
 			error?.describe ?? "Errore Generico",
 			isPresented: $isLoginError,
 			actions: {
-//
 //				Button("Ok", role: .destructive) {}
 			},
-			message: {
-			}
+			message: {}
 		)
 		
 	}
 	var actualButton: (String, () -> Void) {
 		loginStatus == 0
 		? ("Login", {
+			isLoading = true
 			
 			Auth.auth().signIn(withEmail: email, password: password) { res, err in
 				error = FirebaseErrorCodes(err?.type)
-				
+				isLoading = false
 				if let err {
-					
 					print("Error signing in: \(err.localizedDescription)")
 				} else {
 					print("User signed in successfully!")
@@ -106,9 +113,12 @@ struct LoginSwitchView: View {
 			}
 		})
 		: ("Registrati", {
+			isLoading = true
+			
 			Auth.auth().createUser(withEmail: email, password: password) { res, err in
 				error = FirebaseErrorCodes(err?.type)
 				
+				isLoading = false
 				if let err {
 					print("Error signing in: \(err.localizedDescription)")
 				} else {

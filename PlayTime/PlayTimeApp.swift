@@ -7,7 +7,6 @@
 
 import SwiftUI
 import FirebaseCore
-import FirebaseAuth
 
 class AppDelegate: NSObject, UIApplicationDelegate {
 	func application(_ application: UIApplication,
@@ -21,13 +20,9 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 struct PlayTimeApp: App {
 	@UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
 	
-    var body: some Scene {
-        WindowGroup {
-			if Auth.auth().currentUser == nil {
-				LoginSwitchView()
-			} else {
-				ContentView()
-			}
-        }
-    }
+	var body: some Scene {
+		WindowGroup {
+			ContentView()
+		}
+	}
 }

@@ -388,7 +388,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "0DDFE372-A647-4E92-B1CD-1CB0EDB0B243"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PlayTime/Class/FirebaseErrorCodes.swift"
@@ -436,7 +436,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "127F54CE-DEF4-4D39-95CC-C237CC071335"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PlayTime/Class/FirebaseErrorCodes.swift"
@@ -510,6 +510,257 @@
             endingLineNumber = "104"
             landmarkName = "actualButton"
             landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1C403300-096C-47E8-9C44-1C02E5C4297D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/App/tabViews/ProfileView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6BDF05F7-25A4-47D8-9E8F-CB6D2D1A8FF6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/App/tabViews/ProfileView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F950D06E-0471-4029-B1DC-B752849327C7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/App/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ContentView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "F950D06E-0471-4029-B1DC-B752849327C7 - 52ad2029bf0e2a55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of PlayTime.ContentView.user : Swift.Optional&lt;__C.FIRUser&gt;"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/App/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "F950D06E-0471-4029-B1DC-B752849327C7 - 38b7555cf28a2a23"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayTime.ContentView.user.getter : Swift.Optional&lt;__C.FIRUser&gt;"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/App/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "F950D06E-0471-4029-B1DC-B752849327C7 - f55fd566daf78e2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayTime.ContentView.user.setter : Swift.Optional&lt;__C.FIRUser&gt;"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/App/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "F950D06E-0471-4029-B1DC-B752849327C7 - 19b96925274b8d3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayTime.ContentView.user.modify : Swift.Optional&lt;__C.FIRUser&gt;"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/App/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "F950D06E-0471-4029-B1DC-B752849327C7 - 87d40afe7e333d48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayTime.ContentView.user.modify : Swift.Optional&lt;__C.FIRUser&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/App/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "F950D06E-0471-4029-B1DC-B752849327C7 - 7461b9135051e2e7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayTime.ContentView.$user.getter : SwiftUI.Binding&lt;Swift.Optional&lt;__C.FIRUser&gt;&gt;"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/App/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "F950D06E-0471-4029-B1DC-B752849327C7 - 25c8bdb1ad426851"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayTime.ContentView.init() -&gt; PlayTime.ContentView"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/App/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5D9EBA8-B282-40EA-8B42-9D44B9B27F74"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/Class/Extensions/View.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "hidden(_:remove:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACEB18C8-0533-4A99-A9A0-C3A1A3E9C331"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/App/LoginSwitchView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "492D14AE-7E97-4C95-B7FE-927DCD5305F4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/App/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1D09ED9-42DC-42EA-BDAF-38A4A02A88F2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/App/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "F1D09ED9-42DC-42EA-BDAF-38A4A02A88F2 - 12e8915083ad9750"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.hidden(_: Swift.Bool, remove: Swift.Bool) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.hidden(_: Swift.Bool, remove: Swift.Bool) -&gt; some&gt;&gt;.0)&gt; in PlayTime.ContentView.body.getter : some"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/App/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "1088">
+               </Location>
+               <Location
+                  uuid = "F1D09ED9-42DC-42EA-BDAF-38A4A02A88F2 - 6584ca05c5fb066c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;PlayTime.LoginSwitchView, PlayTime.ContentSwitcher&gt; in PlayTime.ContentView.body.getter : some"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/App/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "240">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
