@@ -64,11 +64,13 @@ struct LoginSwitchView: View {
 			Spacer()
 			
 			
-			if isLoading{
+			ZStack{
+				Text(actualButton.0)
+					.hidden(isLoading)
 				ProgressView()
 					.progressViewStyle(.circular)
+					.hidden(!isLoading)
 			}
-			Text(actualButton.0)
 				.frame(maxWidth: .infinity, minHeight: 26)
 				.padding(.vertical, 12)
 				.foregroundColor(.white)
