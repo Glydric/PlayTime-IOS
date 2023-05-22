@@ -208,5 +208,309 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FD6480CF-4115-45C6-8406-2028CDCD19FC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/App/Login/LoginSwitchView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "actualButton"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "36B58827-AC80-428C-9567-929CD8ECECA5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/Class/FirebaseErrorCodes.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "describe"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "36B58827-AC80-428C-9567-929CD8ECECA5 - 642c657e2578cf87"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayTime.FirebaseErrorCodes.describe.getter : Swift.String"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/Class/FirebaseErrorCodes.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "36B58827-AC80-428C-9567-929CD8ECECA5 - 642c657e2578cf87"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayTime.FirebaseErrorCodes.describe.getter : Swift.String"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/Class/FirebaseErrorCodes.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F446E04-7C0C-49C5-A352-8EF8BA2F61F2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/Class/FirebaseErrorCodes.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "describe"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "8F446E04-7C0C-49C5-A352-8EF8BA2F61F2 - 642c657e2578cff8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayTime.FirebaseErrorCodes.describe.getter : Swift.String"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/Class/FirebaseErrorCodes.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "8F446E04-7C0C-49C5-A352-8EF8BA2F61F2 - 642c657e2578cfa6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayTime.FirebaseErrorCodes.describe.getter : Swift.String"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/Class/FirebaseErrorCodes.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B321EC24-F115-4905-AC56-FF05F734CE2F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/Class/FirebaseErrorCodes.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "init?(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E510E72F-C0DE-4CDF-9EA2-0199667F4994"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/Class/FirebaseErrorCodes.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "describe"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B783B416-5464-4AC4-9792-47AEA4B0B9B6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/App/Login/LoginSwitchView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD0DFB52-A22A-4449-8BA2-EEBEDC0FEE50"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/App/Login/LoginSwitchView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DDFE372-A647-4E92-B1CD-1CB0EDB0B243"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/Class/FirebaseErrorCodes.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "init?(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0DDFE372-A647-4E92-B1CD-1CB0EDB0B243 - f694255d6ebed7ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayTime.FirebaseErrorCodes.init(Swift.Optional&lt;Swift.String&gt;) -&gt; Swift.Optional&lt;PlayTime.FirebaseErrorCodes&gt;"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/Class/FirebaseErrorCodes.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "0DDFE372-A647-4E92-B1CD-1CB0EDB0B243 - f694255d6ebed029"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayTime.FirebaseErrorCodes.init(Swift.Optional&lt;Swift.String&gt;) -&gt; Swift.Optional&lt;PlayTime.FirebaseErrorCodes&gt;"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/Class/FirebaseErrorCodes.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "127F54CE-DEF4-4D39-95CC-C237CC071335"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/Class/FirebaseErrorCodes.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "init?(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "127F54CE-DEF4-4D39-95CC-C237CC071335 - f694255d6ebed008"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayTime.FirebaseErrorCodes.init(Swift.Optional&lt;Swift.String&gt;) -&gt; Swift.Optional&lt;PlayTime.FirebaseErrorCodes&gt;"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/Class/FirebaseErrorCodes.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "127F54CE-DEF4-4D39-95CC-C237CC071335 - f694255d6ebed06f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayTime.FirebaseErrorCodes.init(Swift.Optional&lt;Swift.String&gt;) -&gt; Swift.Optional&lt;PlayTime.FirebaseErrorCodes&gt;"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/Class/FirebaseErrorCodes.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C41D0E6-B9DE-4848-837E-996E3B04FD4A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/App/Login/LoginSwitchView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "actualButton"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A688E3C3-8957-442A-B9E2-3A9F1DC5D7D3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/App/Login/LoginSwitchView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "actualButton"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

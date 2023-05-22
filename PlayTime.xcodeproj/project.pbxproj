@@ -24,6 +24,7 @@
 		85DF3AF52A095303009BE6FE /* Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DF3AF42A095303009BE6FE /* Encodable.swift */; };
 		85DF3AF72A095C54009BE6FE /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DF3AF62A095C54009BE6FE /* StorageManager.swift */; };
 		85DF3AFA2A095FDF009BE6FE /* LoginSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DF3AF92A095FDF009BE6FE /* LoginSwitchView.swift */; };
+		85E5DFA02A1B975300BD52F7 /* FirebaseErrorCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E5DF9F2A1B975300BD52F7 /* FirebaseErrorCodes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		85DF3AF42A095303009BE6FE /* Encodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encodable.swift; sourceTree = "<group>"; };
 		85DF3AF62A095C54009BE6FE /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		85DF3AF92A095FDF009BE6FE /* LoginSwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSwitchView.swift; sourceTree = "<group>"; };
+		85E5DF9F2A1B975300BD52F7 /* FirebaseErrorCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseErrorCodes.swift; sourceTree = "<group>"; };
 		8A11832BCB969F3F993FE7A0 /* Pods_PlayTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,7 +105,7 @@
 				853112CB29DC91E9004DC1D8 /* App */,
 				852CD6E32A17D4B7007D9028 /* Utils */,
 				852CD6E42A17D4D1007D9028 /* CustomViews */,
-				85DF3AF82A095CEA009BE6FE /* CustomClasses */,
+				85DF3AF82A095CEA009BE6FE /* Class */,
 				85DF3AEE2A094A6C009BE6FE /* Models */,
 				853112C129DC91B4004DC1D8 /* Assets.xcassets */,
 				853112C329DC91B4004DC1D8 /* Preview Content */,
@@ -133,8 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				853112CD29DC98D8004DC1D8 /* GamesView.swift */,
-				853112CF29DC98FF004DC1D8 /* ProfileView.swift */,
 				853112D129DC990D004DC1D8 /* SocialView.swift */,
+				853112CF29DC98FF004DC1D8 /* ProfileView.swift */,
 			);
 			path = tabViews;
 			sourceTree = "<group>";
@@ -164,14 +166,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		85DF3AF82A095CEA009BE6FE /* CustomClasses */ = {
+		85DF3AF82A095CEA009BE6FE /* Class */ = {
 			isa = PBXGroup;
 			children = (
 				85DF3AF62A095C54009BE6FE /* StorageManager.swift */,
 				85DF3AEA2A09491A009BE6FE /* Network */,
 				85DF3AF32A0952E9009BE6FE /* Extensions */,
+				85E5DF9F2A1B975300BD52F7 /* FirebaseErrorCodes.swift */,
 			);
-			path = CustomClasses;
+			path = Class;
 			sourceTree = "<group>";
 		};
 		85DF3AFB2A0967BE009BE6FE /* Login */ = {
@@ -331,6 +334,7 @@
 				853112C029DC91B2004DC1D8 /* ContentView.swift in Sources */,
 				853112D529DCB6EA004DC1D8 /* LabelledDivider.swift in Sources */,
 				85DF3AF52A095303009BE6FE /* Encodable.swift in Sources */,
+				85E5DFA02A1B975300BD52F7 /* FirebaseErrorCodes.swift in Sources */,
 				853112BE29DC91B2004DC1D8 /* PlayTimeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -3,10 +3,52 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "closure #3 in LoginSwitchView.body.getter:LoginSwitchView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "LoginSwitchView.actualButton.getter:LoginSwitchView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "FirebaseErrorCodes.init(_:):FirebaseErrorCodes.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "rawValue">
+            </PersistentString>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "LoginView.textColor.getter:LoginView.swift">
          <PersistentStrings>
             <PersistentString
                value = "email == &quot;&quot;">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginSwitchView.body.getter:LoginSwitchView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Error.type.getter:LoginSwitchView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in LoginSwitchView.actualButton.getter:LoginSwitchView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "FirebaseErrorCodes(err?.type)">
+            </PersistentString>
+            <PersistentString
+               value = "FirebaseErrorCodes(rawValue: err!.type!)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in LoginSwitchView.actualButton.getter:LoginSwitchView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "err">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

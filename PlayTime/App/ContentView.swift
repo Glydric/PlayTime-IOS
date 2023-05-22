@@ -23,28 +23,31 @@ struct ContentView: View {
 	@State var selectedIndex: Indexes = .Giochi
 	
 	var body: some View {
-		TabView(selection: $selectedIndex) {
-			GamesView()
-				.tabItem {
-					Image(systemName: "gamecontroller")
-					Text("Giochi")
-				}
-				.tag(Indexes.Giochi)
-			SocialView()
-				.tabItem {
-					Image(systemName: "house.fill")
-					Text("Home")
-				}
-				.tag(Indexes.Home)
-			ProfileView()
-				.tabItem {
-					Image(systemName: "person.fill")
-					Text("Profilo")
-				}
-				.tag(Indexes.Profilo)
-		}.onChange(of: selectedIndex) { _ in
-			print("changes")
+		NavigationView{
+			TabView(selection: $selectedIndex) {
+				GamesView()
+					.tabItem {
+						Image(systemName: "gamecontroller")
+						Text("Giochi")
+					}
+					.tag(Indexes.Giochi)
+				SocialView()
+					.tabItem {
+						Image(systemName: "house.fill")
+						Text("Home")
+					}
+					.tag(Indexes.Home)
+				ProfileView()
+					.tabItem {
+						Image(systemName: "person.fill")
+						Text("Profilo")
+					}
+					.tag(Indexes.Profilo)
+			}.onAppear() {
+				UITabBar.appearance().barTintColor = .white
+			}
 		}
+		
 	}
 }
 

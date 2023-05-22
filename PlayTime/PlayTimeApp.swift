@@ -7,6 +7,7 @@
 
 import SwiftUI
 import FirebaseCore
+import FirebaseAuth
 
 class AppDelegate: NSObject, UIApplicationDelegate {
 	func application(_ application: UIApplication,
@@ -22,7 +23,7 @@ struct PlayTimeApp: App {
 	
     var body: some Scene {
         WindowGroup {
-			if StorageManager.user == nil {
+			if Auth.auth().currentUser == nil {
 				LoginSwitchView()
 			} else {
 				ContentView()
