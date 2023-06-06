@@ -703,14 +703,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "492D14AE-7E97-4C95-B7FE-927DCD5305F4"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PlayTime/App/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -725,8 +725,8 @@
             filePath = "PlayTime/App/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "body"
             landmarkType = "24">
             <Locations>
@@ -761,6 +761,325 @@
                   offsetFromSymbolStart = "240">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C94B5433-7369-4008-9FDD-7354B78E9F41"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/Class/Network/Client.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "getAllGames(completion:completionError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35978833-46C9-4F59-BD46-A36D47FB5701"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/Class/Network/Client.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "getAllGames(completion:completionError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6196B695-0846-4C70-82E9-D44A050ABCC3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/Class/Network/Client.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "perform(route:completion:completionError:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6196B695-0846-4C70-82E9-D44A050ABCC3 - 1b809955eb5883a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static PlayTime.APIClient.perform&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(route: PlayTime.APIRoute, completion: (&#x3c4;_0_0) -&gt; (), completionError: (PlayTime.Response.Error) -&gt; ()) -&gt; ()"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/Class/Network/Client.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "1680">
+               </Location>
+               <Location
+                  uuid = "6196B695-0846-4C70-82E9-D44A050ABCC3 - 1b809955eb5883a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static PlayTime.APIClient.perform&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(route: PlayTime.APIRoute, completion: (&#x3c4;_0_0) -&gt; (), completionError: (PlayTime.Response.Error) -&gt; ()) -&gt; ()"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/Class/Network/Client.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "2336">
+               </Location>
+               <Location
+                  uuid = "6196B695-0846-4C70-82E9-D44A050ABCC3 - 1b809955eb5883a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static PlayTime.APIClient.perform&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(route: PlayTime.APIRoute, completion: (&#x3c4;_0_0) -&gt; (), completionError: (PlayTime.Response.Error) -&gt; ()) -&gt; ()"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/Class/Network/Client.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "1792">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32DAA0B0-4251-4D3E-92BD-C58DDE07DF5F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/Class/Network/Client.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "perform(route:completion:completionError:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "32DAA0B0-4251-4D3E-92BD-C58DDE07DF5F - 9a1949d98bea5271"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static PlayTime.APIClient.perform&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(route: PlayTime.APIRoute, completion: (&#x3c4;_0_0) -&gt; (), completionError: (PlayTime.Response.Error) -&gt; ()) -&gt; ()"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/Class/Network/Client.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "32DAA0B0-4251-4D3E-92BD-C58DDE07DF5F - 1b809955eb589f65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static PlayTime.APIClient.perform&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(route: PlayTime.APIRoute, completion: (&#x3c4;_0_0) -&gt; (), completionError: (PlayTime.Response.Error) -&gt; ()) -&gt; ()"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/Class/Network/Client.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "352">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "15750C91-3E23-4DD0-9468-334E25D1CF0F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/Class/Network/APIRoute.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "init(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CB463E86-5E5B-4D21-9851-123297F231CF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/Class/Network/APIRoute.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "URLRequest"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "21305560-3ABA-4E93-8822-9FADE9ECCA62"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/Class/Network/APIRoute.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "init(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "21305560-3ABA-4E93-8822-9FADE9ECCA62 - d29c86536969bcb3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Foundation.URLRequest.init(PlayTime.APIRoute) -&gt; Foundation.URLRequest"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/Class/Network/APIRoute.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "296">
+               </Location>
+               <Location
+                  uuid = "21305560-3ABA-4E93-8822-9FADE9ECCA62 - d29c86536969bcd2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Foundation.URLRequest.init(PlayTime.APIRoute) -&gt; Foundation.URLRequest"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/Class/Network/APIRoute.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "380">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "909AA234-78C5-409B-9670-9803B1A057EE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/App/tabViews/SocialView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "searchResult"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "909AA234-78C5-409B-9670-9803B1A057EE - a548ccb134ae21e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayTime.SocialView.searchResult.getter : Swift.Array&lt;PlayTime.Response.Success.Game&gt;"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/App/tabViews/SocialView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "909AA234-78C5-409B-9670-9803B1A057EE - a548ccb134ae2181"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PlayTime.SocialView.searchResult.getter : Swift.Array&lt;PlayTime.Response.Success.Game&gt;"
+                  moduleName = "PlayTime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomigliorelli/Programmazione/Projects/PlayTime/xcode/PlayTime/App/tabViews/SocialView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D63EE9C9-2A12-431F-B34F-4782E27D9EBE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/App/tabViews/SocialView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "searchResult"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45FA332E-C874-473F-816A-AD610D764BA2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/App/tabViews/SocialView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "searchResult"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACB8F6C6-A231-4E20-B0C2-56241910318B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayTime/App/tabViews/SocialView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "searchResult"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

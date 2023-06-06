@@ -7,14 +7,15 @@
 
 import Foundation
 
-let gateway = "https://us-central1-playtime-78672.cloudfunctions.net/api"
+let gateway = "https://us-central1-playtime-78672.cloudfunctions.net/api/v1"
 
 enum APIRoute {
 	case game(String)
+	case allGames
 	
 	fileprivate var method: String {
 		switch self {
-			case .game:
+			case .game, .allGames:
 				return "GET"
 //			default:
 //				return "POST"
@@ -25,6 +26,8 @@ enum APIRoute {
 		switch self {
 			case .game(let game):
 				return "/game/\(game)"
+			case .allGames:
+				return "/game/"
 		}
 	}
 	
@@ -40,7 +43,12 @@ enum APIRoute {
 
 extension URLRequest {
 	init(_ route: APIRoute){
-		self.init(url: URL(string: gateway + route.path)!)
+		
+		self.init(url: URL(string: gateway + route.path.addingPercentEncoding(
+					withAllowedCharacters: .urlPathAllowed
+				)!
+			)!
+		)
 
 		httpMethod = route.method
 				

@@ -6,20 +6,22 @@
 //
 
 import Foundation
+import SwiftUI
 
 enum Response {
 	struct Error {
 		var statusCode: Int?
-		let message: String
+		var message: String = "Errore Generico"
 	}
 	
 	enum Success {
-		struct Game: Codable {
-			let title: String
+		struct Game: Codable, Hashable {
+			let _id: String
 			let pic: String
+			let title: String
 			let type: [String]
 			let platform: [String]
-			let date: Date
+			let date: String
 		}
 		
 		struct User: Codable {

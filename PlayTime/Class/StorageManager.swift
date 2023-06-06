@@ -24,5 +24,21 @@ class StorageManager {
 			UserDefaults.standard.set(newValue.asJson, forKey: "userString")
 		}
 	}
+	
+	static var allGames: [Response.Success.Game] {
+		get {
+			guard
+				let data = UserDefaults
+				.standard
+				.string(forKey: "allGames"),
+				let data = data.data(using: .utf8)
+			else { return [] }
+			
+			return (try? JSONDecoder().decode([Response.Success.Game].self, from: data)) ?? []
+		}
+		set {
+			UserDefaults.standard.set(newValue.asJson, forKey: "allGames")
+		}
+	}
 }
 

@@ -11,7 +11,7 @@ struct ContentSwitcher: View {
 	@State var selectedIndex: Indexes = .Giochi
 	
     var body: some View {
-		NavigationView{
+		NavigationView {
 			TabView(selection: $selectedIndex) {
 				GamesView()
 					.tabItem {

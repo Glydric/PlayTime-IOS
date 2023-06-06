@@ -32,5 +32,16 @@ extension View {
 			self
 		}
 	}
+//	TODO make macro
+//	func alert(_ error: Response.Error) -> some SwiftUI.View {
+//		return alert(
+//			error.message,
+//			isPresented: error.$toBePresented,
+//			actions: {},
+//			message: {
+//				Text("Potrebbe essere necessario controllare la connessione o aggiornare l'app")
+//			}
+//		)
+//	}
 }
 

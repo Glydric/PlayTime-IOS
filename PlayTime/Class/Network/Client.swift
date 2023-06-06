@@ -12,8 +12,27 @@ import FirebaseFunctions
 let functions = Functions.functions()
 
 class APIClient {
+	static func getGame(
+		_ game: String,
+		completion: @escaping (([Response.Success.Game]) -> Void),
+		completionError:@escaping ((Response.Error) -> Void)){
+		perform(
+			route: APIRoute.game(game),
+			completion: completion,
+			completionError: completionError
+		)
+	}
+	static func getAllGames(
+		completion: @escaping (([Response.Success.Game]) -> Void),
+		completionError: @escaping ((Response.Error) -> Void)){
+		perform(
+			route: APIRoute.allGames,
+			completion: completion,
+			completionError: completionError
+		)
+	}
 	
-	static func perform<S: Decodable>(
+	private static func perform<S: Decodable>(
 		route: APIRoute,
 		completion: @escaping (S) -> Void,
 		completionError: @escaping (Response.Error) -> Void
@@ -37,6 +56,7 @@ class APIClient {
 			
 			
 			if let data {
+				print(String(data: data, encoding: .utf8)!)
 				do {
 					completion(try JSONDecoder().decode(S.self, from: data))
 				} catch let err {
@@ -44,7 +64,6 @@ class APIClient {
 						statusCode: httpResponse.statusCode,
 						message: "Error parsing JSON \(err.localizedDescription)"
 					))
-					
 				}
 			}
 		}
